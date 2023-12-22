@@ -20,7 +20,7 @@ The Dockerfile is provided to build a Lambda-compatible Docker image. It uses th
 
 3. Run the Lambda function locally :
 
-4. Test the function using cURL or an HTTP client:
+4. Test the function using cURL:
 
 ### Deployment to AWS Lambda
 
