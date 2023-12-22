@@ -18,7 +18,7 @@ The Dockerfile is provided to build a Lambda-compatible Docker image. It uses th
 
 2. Build the Docker image:
 
-3. Run the Lambda function locally (for testing purposes):
+3. Run the Lambda function locally :
 
 4. Test the function using cURL or an HTTP client:
 
@@ -28,7 +28,7 @@ The Dockerfile is provided to build a Lambda-compatible Docker image. It uses th
 
 2. Create or update your Lambda function on the AWS Management Console, specifying the ECR image URI as the container image.
 
-3. Configure and test the Lambda function as needed.
+3. Configure and test the Lambda function.
 
 ## Author
 
