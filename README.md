@@ -18,29 +18,15 @@ The Dockerfile is provided to build a Lambda-compatible Docker image. It uses th
 
 2. Build the Docker image:
 
-    ```bash
-    docker build -t random-letter .
-    ```
-
 3. Run the Lambda function locally (for testing purposes):
 
-    ```bash
-    docker run -p 9000:8080 random-letter:latest
-    ```
-
 4. Test the function using cURL or an HTTP client:
-
-    ```bash
-    curl -XPOST "http://localhost:9000/2015-03-31/functions/function/invocations" -d "{\"msg\":\"hello\"}"
-    ```
 
 ### Deployment to AWS Lambda
 
 1. Build and push the Docker image to your Amazon ECR repository:
 
-
 2. Create or update your Lambda function on the AWS Management Console, specifying the ECR image URI as the container image.
-
 
 3. Configure and test the Lambda function as needed.
 
